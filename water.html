@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="water.css">
+	</head>
+	<body>
+     <div id="main">   
+	<div id="circleSun"></div>
+    <div id="triangle"></div>
+  
+
+    <div id="rectangle"></div>
+
+    <div id="circleWindows"></div>
+     <div id="rectangleWindowRoof"></div>
+    
+     <div id="horn"></div>
+     <div id="roofHorn"></div>
+  <div id="squareWindow1"></div>
+<div id="rectangleWindow1"></div>
+
+   <div id="squareWindow2"></div>
+   <div id="rectangle2Window2"></div>
+   <div id="r22Window2"></div>
+   <div id="rDoor"></div>
+  <div id="squareDoor"></div>
+    <div id="circleKey"></div>
+     <div id="rectangleTree1"></div>
+      <div id="circleTree1"></div>
+         <div id="rectangleTree2"></div>
+         <div id="circleTree2"></div>
+          
+         
+</div>
+<br><br>
+    <div id="fixed">
+       <input type="checkbox" id="custom" onclick="show()"/>
+   <label>Show</label> 
+    </div>  
+      </div>
+<br><br><br>
+<script>
+    function show() {
+  var checkBox = document.getElementById("custom");
+  var main = document.getElementById("main");
+  if (checkBox.checked == true){
+    main.style.display = "block";
+  } else {
+     main.style.display = "none";
+  }
+}
+</script>
+    </body>
+</html>
